@@ -1,0 +1,156 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px; 
+}
+
+.body-form{
+  display: flex;
+  background-color: #494949;
+  width: 100%;
+  height: 100vh;
+}
+
+.body-principal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #494949;
+  color:#ffffff;
+  width: 100%;
+  height: 100vh;
+}
+
+.container_quest{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 98%;
+  height: 100%;
+  gap: 10px;
+
+}
+
+.content_one, .content_two{
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  width: 100%;
+  height: 50%;
+  margin: auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.content_one{
+  justify-content: center;
+  align-items: center;
+  word-break: break-all;
+  margin: auto;
+  color: #ffffff;
+}
+
+.content_two{ 
+  align-items: center;
+  height: 600px;
+}
+
+.AP{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.btn_equip{
+  display: flex;
+  gap: 30px;
+}
+
+.buttons{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.buttons_one{
+  display: flex;
+  justify-content: center;
+  gap:100px;
+  margin-top: 30px;
+}
+
+.buttons_two{
+  width: 100%;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  gap: 600px;
+  border-top: 2px solid  red;
+  padding-top: 10px;
+}
+
+.buttons_back{
+  width: 100%;
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+  gap: 600px;
+  border-top: 2px solid  red;
+  padding-top: 10px;
+}
+
+.btn{
+ width: 80px;
+ height: 30px;
+ background-color: red;
+ color: #ffffff;
+ border: none;
+ border-radius: 6px;
+}
+
+
+
+.img-onu{
+  display: flex;
+  justify-content: center;
+ 
+  width: 100%;
+  
+}
+
+.select{
+  width: 80%;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.521);
+  border-radius: 6px;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
